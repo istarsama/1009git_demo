@@ -1,4 +1,5 @@
 ﻿def greet(name):
+    name = name.strip() or "Git"
     return f"Hello, {name}!"
 
 
